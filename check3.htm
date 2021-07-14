@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>navbar</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    
+</head>
+<body></body>
+    <style>
+        body{
+            background:url(6.jpg)center;
+            height: 100vh;
+            background-size:cover;
+            text-align: center;
+        }
+        ul{
+            margin:0;
+            padding: 0;
+            list-style: none;
+            height: 36px;
+            line-height:36px;
+            background-color:aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        li{
+            float:left;
+            border-right: 1px solid red;
+        }
+        .dropdownmenu
+        {
+            width: 75%;
+            height: 100px;
+            margin:auto;
+        }
+
+        a{
+            display: block;
+            padding: 0 28px;
+            color:black;
+            text-decoration: none;
+        }
+        
+      .dropdownmenu ul li ul{
+          display: none;
+          float: center;
+      }
+    .dropdownmenu ul li:hover>ul{
+        display: block;
+        float: center;
+    }
+    .dropdownmenu ul li:hover{
+        background-color: yellowgreen;
+        opacity: 0.9;
+    }
+   
+    img{
+        display: block;
+        margin:0 auto 0 auto;
+        width: 350px;
+        height: 400px;
+        align-items: center;
+        
+    
+    }
+    </style>
+    <div class="dropdownmenu">
+    <ul>
+        <li class="active"><a href="#">About me</a></li>
+        <li><a href="resume.pdf">Resume</a></li>
+        <li><a href="#">Contact Us
+            <ul>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</li></a>
+                <li><a href="https://www.linkedin.com/feed/?trk=login_reg_redirect">Linked In</li></a>
+                <li><a href="https://www.instagram.com/">Inatagram</li></a>
+            </ul>
+        </a>
+       </li>
+       
+    </ul>
+</div>
+<div>
+<h3 > Who Am I?</h3>
+<img  src="7.jpg"   alt="me">
+<h3>I'm saurabh</h3>
+</div>
+</body>
+</html>
